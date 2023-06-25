@@ -1,0 +1,150 @@
+header{
+    background-image: url(../img/wallpaper2.jpg);
+    background-color: #2962A7 ;
+    height: 303px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+}
+
+header p{
+    color: #D7434F;
+}
+
+nav{
+    background-color: #BBACAF;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #DAD4E0 ;
+    color: #58699d ;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    padding: 10px;
+}
+
+h2{
+    color: #385072 ;
+    
+}
+
+aside h3{
+    color: #385072;
+    
+}
+
+h5{
+    color: #CB384B ;
+    
+}
+
+aside a{
+    color: #385072;
+    text-decoration: none;
+    
+}
+
+.fakeimg{
+    background-color: #BBACAF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside .fakeimg{
+    width: 260px;
+    height: 210px;
+}
+
+aside .fakeimg img{
+    width: 250px;
+    height: 200px;
+}
+
+.toursnews{
+    background-color: #BBACAF;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.toursnews:hover{
+    background-color: #DAD4E0;
+    color: #BBACAF;
+}
+
+.toursnews img{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+}
+
+.toursnews a{
+    color: white;
+    font-weight: bold;
+}
+
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    border-left: solid 3px #BBACAF;
+    padding: 15px;
+}
+
+article .fakeimg{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article .fakeimg img{
+    width: 490px;
+    height: 290px;
+}
+
+article p{
+    width: 90%;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    background-image: url(../img/footer.jpg);
+    background-color: #9B847B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2{
+    color: white ;
+}
+
+footer h5{
+    color: #CB384B;
+}
+
